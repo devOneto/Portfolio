@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "My portfolio :)",
+  "main": "main.js",
+  "author": "Joao Araujo",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
