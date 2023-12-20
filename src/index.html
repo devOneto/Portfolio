@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./assets/">
     <link 
         rel="stylesheet" 
         crossorigin="anonymous"
@@ -16,157 +17,22 @@
     
     <div class="container" style="max-width: 950px;">
 
-        <div class="w-100 my-5 gradient-background" style="min-height: 250px;"></div>
-
-        
-        <div class="class">
-
-            <div class="row">
-                <div class="col d-flex justify-content-center">
-                    <img src="./assets/perfil.jpg" alt="Foto de perfil, João Araújo" style="max-width: 200px; position: absolute; margin: -280px;">
-                </div>
+        <div class="row mt-5">
+            <div class="col d-flex justify-content-center">
+                <div class="mx-3">  <a href="./pages/sobre.html"> Sobre       </a>    </div>
+                <div class="mx-3">  <a href="./pages/blog.html"> Blog        </a>    </div>
+                <div class="mx-3">  <a href="./pages/contato.html"> Contato     </a>    </div>
+                <div class="mx-3">  <a href="#"> Projetos    </a>    </div>
             </div>
-
-            <h1 class="my-3">
-                <strong>
-                    Sobre Mim
-                </strong>
-            </h1>
-
-            <div class="row">
-                <div class="col">
-                    <p>
-                        Olá! Eu sou o João e é um prazer tê-lo por aqui! Sou bacharel em Sistemas e Mídias Digitais pela Universidade Federal do Ceará e pretendo iniciar meu Mestrado em Ciências da Computação, também pela UFC, no ano de 2024. 
-                        <br> <br>
-                        Trabalho profissinalmente como Desenvolvedor Web Fullstack desde 2019. As principais tecnologias com as quais trabalho são C# ( ecossistema .NET ) e Javascript/Typescript ( especialmente Angular ). Mas não somente! Tenho vivência acadêmica em algumas outras tecnologias como Python e outras não necessariamente relacionadas a área de desenvolvimento. 
-                        <br> <br>
-                        Caso se interesse em saber um pouco mais sobre minha atuação profissional, recomendo minhas descrições de experiências profissionais no 
-                        <a href="https://www.linkedin.com/in/bpjoaoa/">Linkedin</a>.
-                        <br> <br>
-                        Apesar do meu viés profissional atual, tenho como objetivo trabalhar na industria de jogos digitais, especialmente na área de programação de gameplay, design e pipeline de ferramentas.
-                        <br> <br>
-                        Abaixo você irá encontrar alguns dos projetos em que venho trabalhando. Alguns deles estão disponíveis em meus repositórios públicos do <a href="https://github.com/devOneto">GitHub</a>!
-                        <br> <br>    
-                        Espero que goste 😁!
-                    </p>
-                </div>
-            </div>
-
-            <h1 class="my-3">
-                <strong>
-                    Projetos
-                </strong>
-            </h1>
-
-            <!-- SANDBOX -->
-            <div class="row mb-3">
-                <div class="col">
-                    <h2> Sandbox </h2>
-                    <p>
-                        Apesar de trabalhar profissionalmente como desenvolvedor web a alguns anos, sei que estou destinado a trabalhar com jogos! Este ano pude começar a realizar alguns protótipos mais ambiciosos na área de jogos digitais. Especiamente em 3D, para começar a ganhar prática nas ferramentas que o mercado solicita. Dediquei-me especialmente no fim do ano a construção de uma gama de protótipos utilizando boas práticas e padrões de projetos no projeto que nomeei de Sandbox (Caixa de Areia).
-
-                    </p>
-                    <img 
-                        src="./assets/sandbox-demonstration-image-1.png" 
-                        alt="Demonstração do Projeto Sandbox com um personagem correndo e o nome do estado em que o personagem se encontra escrito no topo da cabeça" 
-                        class="img-fluid rounded mx-auto my-3"
-                    >
-                    <p>
-                        Nestre projeto, utilizando a Game Engine Godot, em sua versão 4, com a linguagem de programação C#, assets públicos da plataforma Mixamo e Blender para animações e modelagem 3D, foi possível projetar um personagem com movimentação e ponto de vista em terceira  pessoa. Busquei utilizar os padrões abordados por Robert Nystrom em game programming patterns como os updates físico e gráfico, máquina de estados finito e componentização. O projeto está em constante evolução e a ideia principal é criar algo que possa realmente ser utilizado em um grande projeto, com as corretas aplicações e otimizações.
-                    </p>
-                    <div class="row">
-                        <div class="col d-flex justify-content-center">
-                            <img 
-                                src="./assets/sandbox-demonstration-image-2-boxing-state.png" 
-                                alt="Demonstração do Projeto Sandbox com um personagem em posição de luta e o nome do estado em que o personagem se encontra escrito no topo da cabeça" 
-                                class="img-fluid rounded mx-auto my-3"
-                            >
-                        </div>
-                        <div class="col d-flex justify-content-center">
-                            <img 
-                                src="./assets/sandbox-demonstration-image-2-crouch-state.png" 
-                                alt="Demonstração do Projeto Sandbox com um personagem agaixado e o nome do estado em que o personagem se encontra escrito no topo da cabeça" 
-                                class="img-fluid rounded mx-auto my-3"
-                            >
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- SANDBOX END-->
-
-            <!-- PROTOCOLOS -->
-            <div class="row">
-                <div class="col">
-                    <h2> Protocolos e Fluxogramas </h2>
-                    <p  class="text-justify"> 
-                        No começo do ano busquei por projetos que me pudessem ser desafiadores e diferentes. Fui contratado para participar de um projeto voltado a saúde pública, mais especificamente no auxílio de processos que seguiam protocolos e fluxos bem estabelecidos. A ideia consistia em construir, baseado em um arquivo json ou yaml, um gráfico de fluxo para realização de uma determinada ação relacionada a área médica. 
-                    </p>
-                    <img 
-                        src="./assets/AlgorithmOpioidHC_Provider_200615.jpg" 
-                        alt="American Heart Association Algorithm Example" 
-                        class="img-fluid rounded mx-auto"
-                    >
-                    <label class="mb-3"> Credits: American Heart Association </label>
-                </div>
-                <div class="col">
-                    <img 
-                        src="./assets/protocolos-object-example.png" 
-                        alt="Object Code Example of a Protocol" 
-                        class="img-fluid rounded mx-auto"
-                    >
-                    <p  class="text-justify"> 
-                        O projeto foi verdadeiramente interessante para mim. A apresentação seria feita em React, oque me deu a oportunidade de aprender uma nova tecnologia. Tive também a grata oportunidade de colocar meus conhecimentos matemáticos em prática novamente, para posicionamento dos gráficos, elaboração de formas geométricas e afins. Devido a outras oportunidades emergentes precisei seguir outro caminho que não se alinhavam com os do projeto.
-                    </p>
-                </div>
-            </div>
-            <!-- PROTOCOLOS END-->
-
-            <!-- PIXI JS BOUNXING BALLS -->
-            <div class="row">
-                <div class="col">
-                    <h2> Pixi JS, Electron and Math ❤️ </h2>
-                    <img 
-                        src="./assets/pixi-js-bouncing-ball-collisions.png" 
-                        alt="Image of Application with Colorfull balls colliding" 
-                        class="img-fluid rounded mx-auto my-3"
-                    >
-                    <p class="text-justify"> 
-                        Neste projeto a ideia era testar algumas bibliotecas e frameworks para entender se elas poderiam atender a propósitos mais complexos. Na época, havia acabado a graduação e estava procurando algo mais profundo para fazer em paralelo ao trabalho. Escolhi fazer uma aplicação com um pouco de Matemática para testar a performance da biblioteca javascript Pixi Js. Aproveitei para experimentar também o framework Electron, responsável por viabilizar aplicações web em contextos de desktop. Na aplicação circulos são gerados e movimentados aleatoriamente pela tela. Estes tem inicialmente a cor branca mas ao colidirem uns com os outros as cores mudam, resultando no efeito demonstrado na imagem.
-                    </p>
-                </div>
-            </div>
-            <!-- PIXI JS BOUNXING BALLS END -->
-
         </div>
 
-            <!-- TANKS VS SPIDERS -->
-            <div class="row">
-                <div class="col">
-                    <h2>Tanks Vs Spiders</h2>
-                    <img 
-                        src="./assets/tanks-vs-spiders-title-screen.png" 
-                        alt="Image of Title Screen Tanks Vs Spiders Game" 
-                        class="img-fluid rounded mx-auto my-3"
-                    >
-                    <p class="text-justify"> 
-                        Tanks Vs Spiders é um jogo tiro top down com elementos de estratégia em tempo real. Foi um projeto feito na Godot Engine 3.5 utilizando-se de sua linguagem de programação própria GD Script. Suas mecânicas e estéticas foram inspiradas em jogos de minha infância como Battle City e Phanthom Spider. No jogo é possível controlar um tanque de guerra e combater aranhas gigantes alienígenas mutantes enquanto ganha poderes especiais para lutar.
-                    </p>
-                    
-                </div>
-                <div class="col">
-                    
-                    Apesar de sua aparente simplicidade, o objetivo do jogo era ser consistente, tanto do viés tecnológico quanto mecânico. A execução do projeto demonstrou-se particularmente desafiadora por alguns fatores como: por ser um projeto vinculado a minha formação acadêmica, este precisou ter um viés mais teórico, o que foi demonstrado no relatório técnico que apresentei como trabalho de conclusão da graduação; em adição ao desafio já bem rigoroso, precisei fazer tudo sozinho (design, arte, programação, etc).
-                    <img 
-                        src="./assets/tanks-vs-spiders-levels.png" 
-                        alt="Image with Tanks Vs Spiders Game Levels"
-                        class="img-fluid rounded mx-auto my-3" 
-                    >
-                </div>
-            </div>
-            <!-- END TANKS VS SPIDERS -->
+        <div class="w-100 gradient-background my-3" style="min-height: 250px;"></div>
 
-        </div>
-        
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <img src="./assets/perfil.jpg" alt="Foto de perfil, João Araújo" style="max-width: 200px; position: absolute; margin: -250px;">
+            </div>
+        </div>    
 
     </div>
 
